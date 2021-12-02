@@ -52,9 +52,9 @@ if (isset($_POST['kirim'])) {
     echo "<br>";
     echo "<br>";
     if ($status == "Sudah Vaksin") {
-        echo "<h3>Diizinkan</h3><br>" ;
+        echo "Diizinkan<br>" ;
     } else {
-        echo "<h3>Tidak Diizinkan</h3><br>";
+        echo "Tidak Diizinkan<br>";
         echo "<br>";
         echo '<a href="https://www.pedulilindungi.id/*">Silahkan Daftar Vaksin</a>';
     }
