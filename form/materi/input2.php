@@ -82,7 +82,6 @@
           <tr>
             <th>
               <button type="submit" name="simpan">Daftar</button>
-              <button type="reset">Bersihkan Formulir</button>
             </th>
           </tr>
         </table>
