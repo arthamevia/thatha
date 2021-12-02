@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Vaksin</title>
+    <title>Pengulangan</title>
 
   </head>
   <body>
   <div class="card container" style="width: 35rem;">
   <div class="card-body container">
-      
+
     <h2 align="center">Form Pengulangan</h2>
     <form action="" method="post">
         <table align="center">
