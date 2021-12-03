@@ -1,9 +1,13 @@
-<?php
-	$star=5;
-	for($a=$star;$a>0;$a--){
-	for($b=$star;$b>=$a;$b--){
-		echo "*";
-	}
-	echo "<br>";
-	}
-?>
+<?php 
+echo "<br>";
+
+for ($i = 0; $i < 5; $i++) {
+    for ($a = 5; $a > $i; $a--) {
+        echo "&nbsp;";
+    }
+    for ($b = 0; $b <= $i; $b++) {
+        echo " * ";
+    }
+    echo "<br>";
+
+}

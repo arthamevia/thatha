@@ -16,7 +16,11 @@
     <h2>Syarat Masuk Ke MIKO MALL</h2>
     <br>
     <form action="" method="post">
+<<<<<<< HEAD
         <table class= "table table-secondary table-striped">
+=======
+        <table>
+>>>>>>> 2616c086930f8fefa55ca391ef1a153ac5ccb8b3
             <tr>
                 <td>Nama Anda</td>
                 <td>:</td>
@@ -52,9 +56,15 @@ if (isset($_POST['kirim'])) {
     echo "<br>";
     echo "<br>";
     if ($status == "Sudah Vaksin") {
+<<<<<<< HEAD
         echo "<h3>Diizinkan</h3><br>" ;
     } else {
         echo "<h3>Tidak Diizinkan</h3><br>";
+=======
+        echo "Diizinkan<br>" ;
+    } else {
+        echo "Tidak Diizinkan<br>";
+>>>>>>> 2616c086930f8fefa55ca391ef1a153ac5ccb8b3
         echo "<br>";
         echo '<a href="https://www.pedulilindungi.id/*">Silahkan Daftar Vaksin</a>';
     }
