@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,8 @@
     <title>Penggajian Karyawan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color : blue">
+<nav class="navbar navbar-blue bg-blue"></nav>
 
 <style>
     .hasil {
@@ -39,61 +39,28 @@
         <div class="card-header"><h5>Penggajian Karyawan</h5></div>
         <h3 class="p-4">PT. Selalu Makmur Jaya</h3>
         <form action="" method="post">
-        <table class= "table table-info table-striped">
+        <table class="table table-info table-striped">
             <tr>
-                <td class="p-3 mb-2 bg-light text-dark" width="160">Nama Bendahara</td><td>:</td>
+                <td class="table-secondary" width="150">Nama Bendahara</td><td>:</td>
                 <td><input type="text" class="form-control" name="nama-ben"></td>
             </tr>
             <tr>
-                <td class="p-3 mb-2 bg-light text-dark">Nama Pekerja</td><td>:</td>
+                <td>Nama Pekerja</td><td>:</td>
                 <td><input type="text" class="form-control" name="nama-pek"></td>
             </tr>
             <tr>
-                <td class="p-3 mb-2 bg-light text-dark">Jenis Kelamin</td><td>:</td>
+                <td class="table-secondary">Jenis Kelamin</td><td>:</td>
                 <td>
                     <input type="radio" name="jk" value="Laki-laki">Laki-laki
-=======
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles.css" rel="stylesheet">
-    <title>Gajih</title>
-  </head>
-  <body>
-      <fieldset>
-  <div class="card container">
-  <div class="card-body container">
-  <h2 align="center">Penggajihan Karyawan</h2>
-    <h1 align="center">PT. Selalu Makmur Jaya</h1>
-    <form action="Proses2.php" method="post">
-        <table align="center"> 
-            <tr>
-                <td>Nama Bendahara</td>
-                <td>:</td>
-                <td><input type="text" name="bendahara"></td>
-            </tr>
-            <tr>
-                <td>Nama Pekerja</td>
-                <td>:</td>
-                <td><input type="text" name="pekerja"></td>
-            </tr>
-            <tr>
-                <td>Jenis Kelamin</td>
-                <td>:</td>
-                <td><input type="radio" name="jk" value="Laki-laki">Laki-laki
->>>>>>> 2616c086930f8fefa55ca391ef1a153ac5ccb8b3
                     <input type="radio" name="jk" value="Perempuan">Perempuan
                 </td>
             </tr>
             <tr>
-<<<<<<< HEAD
-                <td class="p-3 mb-2 bg-light text-dark">Tanggal Gaji</td><td>:</td>
+                <td>Tanggal Gaji</td><td>:</td>
                 <td><input type="date" class="form-control" name="tgl"></td>
             </tr>
             <tr>
-                <td class="p-3 mb-2 bg-light text-dark">Jabatan</td><td>:</td>
+                <td class="table-secondary">Jabatan</td><td>:</td>
                 <td>
                     <select class="form-select" name="jabatan">
                         <option value="Direktur">Direktur</option>
@@ -104,7 +71,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="p-3 mb-2 bg-light text-dark">Pendidikan Terakhir</td><td>:</td>
+                <td>Pendidikan Terakhir</td><td>:</td>
                 <td>
                     <select class="form-select" name="pendidikan">
                         <option value="SD">SD</option>
@@ -116,11 +83,11 @@
                 </td>
             </tr>
             <tr>
-                <td class="p-3 mb-2 bg-light text-dark">Lembur</td><td>:</td>
+                <td class="table-secondary">Lembur</td><td>:</td>
                 <td><input type="text" class="form-control" name="lembur"></td><td>Hari/Rp.20.000</td>
             </tr>
             <tr>
-                <td class="p-3 mb-2 bg-light text-dark">Potongan</td><td>:</td>
+                <td>Potongan</td><td>:</td>
                 <td><input type="number" class="form-control" name="potongan"></td>
             </tr>
             <tr>
@@ -164,9 +131,9 @@
                     $total = ($gaji + $tunjangan + $vakasi) - $potongan;
                 }
                 else if ($pendidikan == "S2") {
-                  $tunjangan = 2000000;
-                  $total = ($gaji + $tunjangan + $vakasi) - $potongan;
-              }
+                    $tunjangan = 2000000;
+                    $total = ($gaji + $tunjangan + $vakasi) - $potongan;
+                }
             }
             else if ($jabatan == "Manager") {
                 $gaji = 7500000;
@@ -184,9 +151,9 @@
                     $total = ($gaji + $tunjangan + $vakasi) - $potongan;
                 }
                 else if ($pendidikan == "S2") {
-                  $tunjangan = 2000000;
-                  $total = ($gaji + $tunjangan + $vakasi) - $potongan;
-              }
+                    $tunjangan = 2000000;
+                    $total = ($gaji + $tunjangan + $vakasi) - $potongan;
+                }
             }
             else if ($jabatan == "Karyawan") {
                 $gaji = 5000000;
@@ -204,9 +171,9 @@
                     $total = ($gaji + $tunjangan + $vakasi) - $potongan;
                 }
                 else if ($pendidikan == "S2") {
-                  $tunjangan = 2000000;
-                  $total = ($gaji + $tunjangan + $vakasi) - $potongan;
-              }
+                    $tunjangan = 2000000;
+                    $total = ($gaji + $tunjangan + $vakasi) - $potongan;
+                }
             }
             else if ($jabatan == "OB") {
                 $gaji = 2500000;
@@ -224,9 +191,9 @@
                     $total = ($gaji + $tunjangan + $vakasi) - $potongan;
                 }
                 else if ($pendidikan == "S2") {
-                  $tunjangan = 2000000;
-                  $total = ($gaji + $tunjangan + $vakasi) - $potongan;
-              }
+                    $tunjangan = 2000000;
+                    $total = ($gaji + $tunjangan + $vakasi) - $potongan;
+                }
             }
 
             ?>
@@ -294,52 +261,3 @@
     </div>
 </body>
 </html>
-=======
-                <td>Tanggal Gaji</td>
-                <td>:</td>
-                <td><input type="date" name="tanggal"></td>
-            </tr>  
-            <tr>
-                <td>Jabatan</td>
-                <td>:</td>
-                <td><select name="jabatan" id="">
-                    <option value="">Jabatan</option>
-                    <option value="Direktur">Direktur</option>
-                    <option value="Manager">Manager</option>
-                    <option value="Karyawan">Karyawan</option>
-                    <option value="OB">OB</option>
-                </select></td>
-            </tr>
-            <tr>
-                <td>Pendidikan Terakhir</td>
-                <td>:</td>
-                <td><select name="pendidikan" id="">
-                   <option value="">Pendidikan</option>
-                    <option value="SD">SD</option>
-                    <option value="SMP">SMP</option>
-                    <option value="SMA">SMA</option>
-                    <option value="S1">S1</option>
-                    <option value="S1">S2</option>
-                </select></td>
-            </tr>
-            <tr>
-                <td>Lembur</td>
-                <td>:</td>
-                <td><input type="number" name="lembur">Hari/Rp. 20.000</td>
-            </tr>
-            <tr>
-                <td>Potongan</td>
-                <td>:</td>
-                <td><input type="number" name="potongan" min="10000" max="500000"></td>
-            </tr>
-            <th>
-                 <button type="submit" name="kirim">Kirim</button>
-                 <button type="reset">Reset</button>
-            </th>
-        </table>
-    </form>
-</fieldset>
-    
-  </body>
-</html> 
->>>>>>> 2616c086930f8fefa55ca391ef1a153ac5ccb8b3

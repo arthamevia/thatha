@@ -8,7 +8,8 @@
     <title>Vaksin</title>
 
   </head>
-  <body>
+  <body style="background-color : blue">
+  <nav class="navbar navbar-blue bg-blue"></nav>
   <div class="card container" style="width: 35rem;">
   <div class="card-body container">
       
@@ -16,11 +17,7 @@
     <h2>Syarat Masuk Ke MIKO MALL</h2>
     <br>
     <form action="" method="post">
-<<<<<<< HEAD
-        <table class= "table table-secondary table-striped">
-=======
-        <table>
->>>>>>> 2616c086930f8fefa55ca391ef1a153ac5ccb8b3
+        <table class="table table-primary table-striped">
             <tr>
                 <td>Nama Anda</td>
                 <td>:</td>
@@ -56,15 +53,9 @@ if (isset($_POST['kirim'])) {
     echo "<br>";
     echo "<br>";
     if ($status == "Sudah Vaksin") {
-<<<<<<< HEAD
-        echo "<h3>Diizinkan</h3><br>" ;
+        echo "<h4>Diizinkan</h4><br>";
     } else {
-        echo "<h3>Tidak Diizinkan</h3><br>";
-=======
-        echo "Diizinkan<br>" ;
-    } else {
-        echo "Tidak Diizinkan<br>";
->>>>>>> 2616c086930f8fefa55ca391ef1a153ac5ccb8b3
+        echo "<h4>Tidak Diizinkan</h4><br>";
         echo "<br>";
         echo '<a href="https://www.pedulilindungi.id/*">Silahkan Daftar Vaksin</a>';
     }
@@ -74,9 +65,6 @@ if (isset($_POST['kirim'])) {
 ?>
 
 </center>
-
-  </div>
-</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
