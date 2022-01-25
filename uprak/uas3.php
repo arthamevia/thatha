@@ -8,12 +8,13 @@
     <title>Pengulangan</title>
 
   </head>
-  <body style="background-color : pink">
-  <nav class="navbar navbar-pink bg-pink"></nav>
+  <body style="background-color : yellow">
+  <nav class="navbar navbar-yellow bg-yellow"></nav>
   <div class="card container" style="width: 35rem;">
   <div class="card-body container">
 
     <h2 align="center">Form Pengulangan</h2>
+    <br>
     <form action="" method="post">
         <table class="table table-success table-striped" align="center">
             <tr>
